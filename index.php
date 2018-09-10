@@ -17,6 +17,8 @@
   </div>
 
   <div id="content">
+
+
     <!-- Заголовок -->
     <h1>Добро пожаловать на наш сайт!</h1>
     <!-- Заголовок -->
@@ -38,8 +40,18 @@
     <!-- Навигация -->
     <h2>Навигация по сайту</h2>
     <!-- Меню -->
+
+    <?php
+    $leftMenu = [
+      ['link' => 'Главная', 'href' => 'index.php'],
+      ['link' => 'О нас', 'href' => 'about.php'],
+      ['link' => 'Контакты', 'href' => 'contact.php'],
+      ['link' => 'Таблица умножения', 'href' => 'table.php'],
+      ['link' => 'Калькулятор', 'href' => 'calc.php']
+    ];
+    ?>
     <ul>
-      <li><a href='index.php'>Домой</a>
+      <li><a href='<?= $leftMenu[0]['href'];?>'><?= $leftMenu[0]['link'];?></a>
       </li>
       <li><a href='about.php'>О нас</a>
       </li>
