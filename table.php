@@ -1,4 +1,24 @@
-<!DOCTYPE html>
+<?php
+
+function drawTable($cols = 10, $rows = 10 ) {
+  echo "<table border='1'>";
+
+  for ($tr = 1; $tr <= $rows; $tr++) {
+    echo "<tr>";
+    for ($td = 1; $td <= $cols; $td++) {
+      if ($td ==1 || $tr == 1)
+        echo "<th>" . $td * $tr . "</th>";
+      else
+        echo "<td>" . $td * $tr . "</td>";
+    }
+
+    echo "</tr>";
+  }
+
+  echo "</table>";
+}
+
+?><!DOCTYPE html>
 <html>
 
 <head>
@@ -37,29 +57,15 @@
     <br />
     <input type='submit' value='Создать' />
   </form>
-  
+
   <!-- Таблица -->
   <?php
 
   $cols = 10;
-  $rows = 10;
+  $rows = 5;
 
-  echo "<table border='1'>";
-  
-  for ($tr = 1; $tr <= $rows; $tr++) {
-    echo "<tr>";
-    for ($td = 1; $td <= $cols; $td++) {
-      echo '<td>';
-      $result = $td*$tr;
-      echo $result;
-      echo '</td>';
-    }
-    
-    echo "</tr>";
-  }
+drawTable($cols, $rows)
 
-  echo "</table>";
-  
   ?>
   <!-- Таблица -->
   <!-- Область основного контента -->
