@@ -2,19 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="495ef473-640e-4d6b-aa12-aeb2bbf39c0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/web.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/cache-control/cache-off.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/cache-control/cache-on.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/charset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/rtf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/text-xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/hash/crypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/hash/md5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/location/form-post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/location/go.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/refresh/refresh-url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/refresh/refresh.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/cookies/cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/cookies/zasada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/fopen.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/opendir.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sessions/session-1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sessions/session-2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sessions/session_destroy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/add2basket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/add2cat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/orders.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/save2cat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/create_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/secure.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/session.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/basket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/catalog.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/delete_from_basket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/eshop.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/inc/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/inc/config.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/inc/lib.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/orderform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/saveorder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gbook/gbook.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/about.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/contact.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/cookie.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/gbook.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/headers.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/index.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/info.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/log.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/routing.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/view-log.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/answers.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/q1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/q2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/q3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/start.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/cookies/zasada.php" afterPath="$PROJECT_DIR$/demo/cookies/zasada.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/sessions/session-1.php" afterPath="$PROJECT_DIR$/demo/sessions/session-1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/sessions/session-2.php" afterPath="$PROJECT_DIR$/demo/sessions/session-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop/admin/secure/login.php" afterPath="$PROJECT_DIR$/eshop/admin/secure/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/cookie.inc.php" afterPath="$PROJECT_DIR$/inc/cookie.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/index.inc.php" afterPath="$PROJECT_DIR$/inc/index.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/routing.inc.php" afterPath="$PROJECT_DIR$/inc/routing.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/answers.ini" afterPath="$PROJECT_DIR$/test/answers.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.php" afterPath="$PROJECT_DIR$/test/index.php" />
     </list>
     <ignored path="oop.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,64 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="answers.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/answers.ini">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/result.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding>
-                <marker date="1537038717475" expanded="true" signature="1335:1352" ph="..." />
-                <marker date="1537038717475" expanded="true" signature="1772:1856" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eshop/admin/secure/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/routing.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -126,7 +125,6 @@
       <list>
         <option value="$PROJECT_DIR$/random.php" />
         <option value="$PROJECT_DIR$/.gitignor" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/while.php" />
         <option value="$PROJECT_DIR$/conf.php" />
@@ -144,6 +142,7 @@
         <option value="$PROJECT_DIR$/test/answers.ini" />
         <option value="$PROJECT_DIR$/test/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -204,8 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,34 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oop.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,23 +291,24 @@
       <workItem from="1536943723793" duration="1678000" />
       <workItem from="1536960950369" duration="2376000" />
       <workItem from="1537001027677" duration="18785000" />
+      <workItem from="1537122204101" duration="370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68005000" />
+    <option name="totallyTimeSpent" value="68375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1881" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14550409" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14713897" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18474114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36802575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36802575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37660944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37660944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -367,13 +339,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d2fb58c3-e8cf-480f-a46a-89e0f6c25382/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/80025373/947782cb-0d3f-4b6a-a4df-2ae5ad1a175c/specialist.teachers">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -621,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,10 +745,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <marker date="1537038717475" expanded="true" signature="1335:1352" ph="..." />
-            <marker date="1537038717475" expanded="true" signature="1772:1856" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

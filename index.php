@@ -1,71 +1,36 @@
 <?php
-require_once './inc/headers.inc.php';
-require_once './inc/cookie.inc.php';
-//deay; умри
-//exeption();
-//throw ();
-?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title><?php echo $title?></title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="inc/style.css" />
-	</head>
-	<body>
 
-		<div id="header">
-			<!-- Верхняя часть страницы -->
-			<img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
-			<span class="slogan">обо всём сразу</span>
-			<!-- Верхняя часть страницы -->
-		</div>
+class Toad {
+    public $x;
+    public $y;
+    public $name;
+    public $color;
+    public $hp;
+    public $power    ;
 
-		<div id="content">
+    public function __construct($name) {
 
-			<!-- Заголовок -->
-			<?php
-				if (isset($visitCounter)) {
-					if (1 === $visitCounter)
-						echo 'Первый визит';
-				}else{
-					echo 'переменная $visitCounter не подципилась!!!'.'<br>';
-				}
+        $this->setXY();
+        $this->name = $name;
+        $this->hp = 100;
+        $this->power =5;
+    }
 
-				if (isset($lastVisit)){
-					echo 'Визит № ' . $lastVisit ;
-				}else{
-					echo 'переменная  $lastVisit не подципилась!!!';
-				}
-				echo ( $visitCounter == 1) ? 'Первый визит' :  'Визит №' . $lastVisit;
-			?>
-			<h1><?php echo "Добро пожаловать на наш сайт!"?></h1>
-			<!-- Заголовок -->
-			<!-- Область основного контента -->
-			<?php
-            //include realpath(dirname(__FILE__)).'inc/routing.inc.php';
-				include './inc/routing.inc.php';
-			?>	
-			<!-- Область основного контента -->
-		</div>
-		<div id="nav">
-			<!-- Навигация -->
-			<h2>Навигация по сайту</h2>
-			<ul>
-				<li><a href='index.php'>Домой</a></li>
-				<li><a href='index.php?id=contact'>Контакты</a></li>
-				<li><a href='index.php?id=about'>О нас</a></li>
-				<li><a href='index.php?id=info'>Информация</a></li>
-				<li><a href='test/index.php'>Он-лайн тест</a></li>
-				<li><a href='index.php?id=gbook'>Гостевая книга</a></li>
-				<li><a href='eshop/catalog.php'>Магазин</a></li>
-			</ul>
-			<!-- Навигация -->
-		</div>
-		<div id="footer">
-			<!-- Нижняя часть страницы -->
-			&copy; Супер-мега сайт, 2000 &ndash; <?= date('Y')?>
-			<!-- Нижняя часть страницы -->
-		</div>
-	</body>
-</html>
+    public function move () {
+
+    }
+
+    public function jump() {
+
+    }
+
+    public function strike() {
+
+    }
+
+    public function setXY() {
+        $this->x = mt_rand(1, 100);
+        $this->y = mt_rand(1, 100);
+    }
+
+}
