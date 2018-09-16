@@ -1,4 +1,4 @@
-<?
+<?php
 $title = 'Авторизация';
 $login  = '';
 ?>
@@ -9,11 +9,11 @@ $login  = '';
 	<meta charset="utf-8">
 </head>
 <body>
-	<h1><?= $title?></h1>
-	<form action="<?= $_SERVER['REQUEST_URI']?>" method="post">
+	<h1><?php echo $title?></h1>
+	<form action="<?php echo $_SERVER['REQUEST_URI']?>" method="post">
 		<div>
 			<label for="txtUser">Логин</label>
-			<input id="txtUser" type="text" name="login" value="<?= $login?>" />
+			<input id="txtUser" type="text" name="login" value="<?php echo $login?>" />
 		</div>
 		<div>
 			<label for="txtString">Пароль</label>

@@ -1,3 +1,18 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['test']) and !isset($_SESSION['q'])) {
+	$q = 0;
+	$title = "Пройдите тест";
+}else{
+	//Создание сесионной переменной test,
+	if ($_POST['q'] != 1)
+		$_SESSION['test'][] = $_POST['answer'];
+	$q = $_POST['q'];
+	$test = $_POST['test'];
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +29,7 @@
 		<table width="100%">
 			<tr>
 				<td align="center">
-					<h1>...</h1>
+					<h1>title</h1>
 					<p><a href='/index.php'>Прервать тест и вернуться на сайт</a></p>
 				</td>
 			</tr>
@@ -26,6 +41,7 @@
 <tr>
 	<td>
 		<!-- Область основного контента -->
+		
 		<!-- Область основного контента -->
 	</td>
 </tr>

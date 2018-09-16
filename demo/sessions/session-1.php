@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -25,15 +25,15 @@ else {
 <h1>Демонстрация сессии</h1>
 <a href="session-2.php">Демо сессии</a><br>
 <a href="session_destroy.php">Закрыть сессию</a><br><br>
-<form action="<?=$_SERVER["PHP_SELF"]?>" 
+<form action="<?php echo $_SERVER["PHP_SELF"]?>"
 		method="post">
 	Ваше имя:
-	<input type="text" name="name" value="<?=$name?>"><br>
+	<input type="text" name="name" value="<?php echo $name?>"><br>
 	Ваш возраст:
-	<input type="text" name="age" value="<?=$age?>"><br>
+	<input type="text" name="age" value="<?php echo $age?>"><br>
 	<input type="submit" value="Передать">
 </form>
-<?
+<?php
 if ($name and $age) {	
 	if ($name and $age) {
 		echo "<h1>Привет, $name</h1>";

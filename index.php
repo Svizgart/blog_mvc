@@ -1,10 +1,14 @@
-<?
-	include 'inc/headers.inc.php';
+<?php
+require_once './inc/headers.inc.php';
+require_once './inc/cookie.inc.php';
+//deay; умри
+//exeption();
+//throw ();
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?= $title?></title>
+		<title><?php echo $title?></title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="inc/style.css" />
 	</head>
@@ -18,12 +22,29 @@
 		</div>
 
 		<div id="content">
+
 			<!-- Заголовок -->
-			<h1><?= $header?></h1>
+			<?php
+				if (isset($visitCounter)) {
+					if (1 === $visitCounter)
+						echo 'Первый визит';
+				}else{
+					echo 'переменная $visitCounter не подципилась!!!'.'<br>';
+				}
+
+				if (isset($lastVisit)){
+					echo 'Визит № ' . $lastVisit ;
+				}else{
+					echo 'переменная  $lastVisit не подципилась!!!';
+				}
+				echo ( $visitCounter == 1) ? 'Первый визит' :  'Визит №' . $lastVisit;
+			?>
+			<h1><?php echo "Добро пожаловать на наш сайт!"?></h1>
 			<!-- Заголовок -->
 			<!-- Область основного контента -->
 			<?php
-				include 'inc/routing.inc.php';
+            //include realpath(dirname(__FILE__)).'inc/routing.inc.php';
+				include './inc/routing.inc.php';
 			?>	
 			<!-- Область основного контента -->
 		</div>
