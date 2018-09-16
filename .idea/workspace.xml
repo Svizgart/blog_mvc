@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="495ef473-640e-4d6b-aa12-aeb2bbf39c0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/web.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/cache-control/cache-off.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/cache-control/cache-on.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/charset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/file.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/rtf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/content-type/text-xml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/hash/crypt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/hash/md5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/location/form-post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/location/go.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/refresh/refresh-url.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/_headers/refresh/refresh.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/cookies/cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/cookies/zasada.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/fopen.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/opendir.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/files/upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sessions/session-1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sessions/session-2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sessions/session_destroy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/add2basket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/add2cat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/orders.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/save2cat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/create_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/secure.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/admin/secure/session.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/basket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/catalog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/delete_from_basket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/eshop.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/inc/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/inc/config.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/inc/lib.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/orderform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eshop/saveorder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gbook/gbook.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/about.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/contact.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/cookie.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/gbook.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/headers.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/index.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/info.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/log.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/routing.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/view-log.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/answers.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/q1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/q2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/q3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/result.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/start.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="oop.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="237">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -141,8 +77,8 @@
         <option value="$PROJECT_DIR$/demo/sessions/session-2.php" />
         <option value="$PROJECT_DIR$/test/answers.ini" />
         <option value="$PROJECT_DIR$/test/index.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -291,12 +227,12 @@
       <workItem from="1536943723793" duration="1678000" />
       <workItem from="1536960950369" duration="2376000" />
       <workItem from="1537001027677" duration="18785000" />
-      <workItem from="1537122204101" duration="370000" />
+      <workItem from="1537122204101" duration="5531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68375000" />
+    <option name="totallyTimeSpent" value="73536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1881" height="1056" extended-state="6" />
@@ -308,7 +244,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18474114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36802575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37660944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14377682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,18 +677,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding />
         </state>
       </provider>
