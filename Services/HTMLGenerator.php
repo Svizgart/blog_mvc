@@ -1,4 +1,7 @@
 <?php
+
+namespace Services;
+
 class HTMLGenerator
 {
     const END_LINE = "\n";
