@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: svizgart
- * Date: 16.09.18
- * Time: 1:27
- */
+
+include_once ('HTMLGenerator.php');
+include_once ('data/a');
+
+$HTMLGen = new HTMLGenerator('./data/article_1.txt');

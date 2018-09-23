@@ -10,8 +10,9 @@ class HTMLGenerator
     public function __construct($path)
     {
         $this->path = $path;
+        $this->loadText();
 
-        $this->loadeText();/////не понятно что и от куда
+        return $this;
     }
 
 
@@ -75,7 +76,6 @@ class HTMLGenerator
         }
 
         return $res;
-
     }
 
     
