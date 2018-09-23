@@ -16,7 +16,8 @@ class HTMLGenerator
     }
 
 
-    public function wrapEachInP() {
+    public function wrapEachInP()
+    {
         $arr = $this->explodeText($this->beautyText);//нагуглить
         $t = '';
         foreach ($arr as $p) {
@@ -27,7 +28,8 @@ class HTMLGenerator
         return $this;
     }
 
-    public function findByTeg($teg, $pos = null) {
+    public function findByTeg($teg, $pos = null)
+    {
         preg_match_all("#<$teg*>(.*?)</$teg>#", $this->beautyText, $match); //нагуглить
 
         if (isset($pos) && $pos > 0) {
@@ -39,15 +41,10 @@ class HTMLGenerator
     }
 
 
-    public function wrapAllInBox($class = '') {
-        //if ($class === '') {
-        //    $class = '';
-        //}else{
-        //    $class = "class='$class'";
-        //}
-        //Тожесамое но кароче (тернарные операторы)
-        $class = $class === '' ? '' : $class = "class='$class'";
-        $this->beautyText = "<dev$class>{$this->beautyText}</div>";
+    public function wrapAllInBox($class = '')
+    {
+        $class = $class === '' ?: $class = "class='$class'";
+        $this->beautyText = "<dev $class>{$this->beautyText}</div>";
 
         return $this;
     }
@@ -60,8 +57,14 @@ class HTMLGenerator
     }
 
 
-    public static function getTitle($text, $level = '1') {
+    public static function getTitle($text, $level = '1')
+    {
         return "<h$level>{$text}</h$level>";
+    }
+
+    public static function getImg($url, $alt = 'img')
+    {
+        return "<img width='400px' src=\"$url\" alt=\"$alt\" title=\"$alt\">";
     }
 
 
@@ -71,15 +74,16 @@ class HTMLGenerator
         $res = [];
         foreach ($t as $p) {
             if ($p != '') {
-                $pes[] = $p;
+                $res[] = $p;
+                //var_dump($res);
             }
         }
 
         return $res;
     }
 
-    
-    private function loadText(){
+    private function loadText()
+    {
         $this->text = file_get_contents($this->path);
         $this->beautyText = $this->text;
     }

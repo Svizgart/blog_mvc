@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: svizgart
- * Date: 16.09.18
- * Time: 1:47
- */
+class Math
+{
+    const PI = 3.14;
+
+    public static function circleRang($r)
+    {
+        return self::PI * $r**2;
+    }
+
+}
