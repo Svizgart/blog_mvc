@@ -2,15 +2,22 @@
 
 namespace Controllers;
 
+use Core\Request;
+
 abstract class Controller
 {
-    protected $get;
-    protected $post;
 
-    public function __construct(array $get, array $post)
+    protected $request;
+
+    public function __construct(Request $request)
     {
-        $this->get = $get;
-        $this->post = $post;
+        $this->request = $request;
+    }
+
+    public function __call($name, $params)
+    {
+        $pageNotFound = new PageController($this->request);
+        $pageNotFound->pageNotFound();
     }
     protected function render($filename, $values = [])
     {

@@ -10,7 +10,7 @@
 
 <?php foreach ($articles as $article):?>
     <hr>
-    <a href="index.php?act=show&id=<?php echo $article['id']?>"><?php echo  $article['name'] ?>
+    <a href="index.php?con=article&act=show&id=<?php echo $article['id']?>"><?php echo  $article['name'] ?>
     </a>
 
 <?php endforeach; ?>
