@@ -8,8 +8,30 @@ spl_autoload_register(function ($name)
     include_once str_replace("\\", DIRECTORY_SEPARATOR, $name) . '.php';
 });
 
-$ctl = new \Core\Router(new \Core\Request($_GET, $_POST, $_SERVER ));
-$act = $ctl->getAct();
+$controllerName;
+$defaultAction;
+
+$controller = $_GET['con'] ?? 'article';
+
+switch ($controller){
+    case 'article':
+        $controllerName = 'Controllers\ArticleController';
+        $defaultAction = 'index';
+        break;
+    case 'page':
+        $controllerName = 'Controllers\PageController';
+        $defaultAction = 'about';
+        break;
+    default:
+        $controllerName = 'Controllers\PageController';
+        $defaultAction = 'pageNotFound';
+        break;
+}
+
+$action = ($_GET['act']) ?? $defaultAction;
+
+$ctl = $controllerName(new \Core\Request($_GET, $_POST, $_SERVER ));
+$act = $action;
 
 //include_once 'Controllers/Controller.php';
 //include_once 'Controllers/ArticleController.php';
